@@ -9,6 +9,7 @@ public class AdactInPojo extends LibGlobalClass {
 	
 	public AdactInPojo() {
 		PageFactory.initElements(driver, this);
+		System.out.println("mm added");
 	}
 	
 	@FindBy(id="username")
