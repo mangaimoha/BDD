@@ -1,0 +1,207 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 342283200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters Adactin Page",
+            "match": {
+              "location": "StepDefinitionClass.user_enters_Adactin_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 12758713400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "To valdiate by providing valid email ID.",
+        "description": "",
+        "id": "to-validate-the-forgot-password-functionality-in-adactin-hotel-application;to-valdiate-by-providing-valid-email-id.",
+        "after": [
+          {
+            "result": {
+              "duration": 1095000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2667516200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User go to forgot password page and enter valid email ID",
+            "match": {
+              "location": "StepDefinitionClass.user_go_to_forgot_password_page_and_enter_valid_email_ID(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "abc@gmail.com",
+                  "mangaimanivel@gmail.com",
+                  "9597803319",
+                  "mangaimanivel20oct1995@gmail.com",
+                  "Selenium@Java"
+                ],
+                "line": 9
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 946524300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Close the browser",
+            "match": {
+              "location": "StepDefinitionClass.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 36400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters Adactin Page",
+            "match": {
+              "location": "StepDefinitionClass.user_enters_Adactin_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 9388528400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "To valdiate by providing Invalid email ID.",
+        "description": "",
+        "id": "to-validate-the-forgot-password-functionality-in-adactin-hotel-application;to-valdiate-by-providing-invalid-email-id.",
+        "after": [
+          {
+            "result": {
+              "duration": 733400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10797276200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User go to forgot password page and enter Invalid email ID",
+            "match": {
+              "location": "StepDefinitionClass.user_go_to_forgot_password_page_and_enter_Invalid_email_ID(DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "mangai",
+                  "mangaimanivel"
+                ],
+                "line": 14
+              },
+              {
+                "cells": [
+                  "abc",
+                  "abc@gmail.com"
+                ],
+                "line": 15
+              },
+              {
+                "cells": [
+                  "phone",
+                  "9597803319"
+                ],
+                "line": 16
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1263490400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Close the browser",
+            "match": {
+              "location": "StepDefinitionClass.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To Validate the Forgot Password functionality in Adactin hotel application",
+    "description": "",
+    "id": "to-validate-the-forgot-password-functionality-in-adactin-hotel-application",
+    "keyword": "Feature",
+    "uri": "ForgotPassword.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@password"
+      }
+    ]
+  }
+]
