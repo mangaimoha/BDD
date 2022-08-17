@@ -11,7 +11,7 @@ public class AdactInPojo extends LibGlobalClass {
 		PageFactory.initElements(driver, this);
 
 		System.out.println("mm added");
-
+		System.out.println("mohan added");
 		System.out.println("mangai added");
 
 	}
